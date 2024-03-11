@@ -34,7 +34,6 @@ public class PlayerController : MonoBehaviour
 
     public void SelectTile(Vector3 position)
     {
-        Debug.Log(position);
         _cropsManager.Plow(position);
     }
 

@@ -698,7 +698,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &585165153
 Transform:
   m_ObjectHideFlags: 0
@@ -708,7 +708,7 @@ Transform:
   m_GameObject: {fileID: 585165149}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.09698576, y: -1.0312948, z: 0}
+  m_LocalPosition: {x: 0.89, y: 0.095, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38570,7 +38570,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 6
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -80289,10 +80289,10 @@ Tilemap:
     m_Data: {fileID: -2106924969, guid: 2aaabcad762212340a1f032eba9b2189, type: 3}
   - m_RefCount: 8
     m_Data: {fileID: -1401473937, guid: 2aaabcad762212340a1f032eba9b2189, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1754419743, guid: 2aaabcad762212340a1f032eba9b2189, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1754419743, guid: 2aaabcad762212340a1f032eba9b2189, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 933097231, guid: 2aaabcad762212340a1f032eba9b2189, type: 3}
   - m_RefCount: 1
@@ -80714,6 +80714,7 @@ MonoBehaviour:
   plowed: {fileID: 11400000, guid: 61e490dc4f0b64f4b923ac4c5d814095, type: 2}
   seeded: {fileID: 11400000, guid: bbc1389da06c4ed4fb5a9147e4322401, type: 2}
   targetTilemap: {fileID: 1503059592}
+  targetTransform: {fileID: 585165153}
 --- !u!114 &1959597668
 MonoBehaviour:
   m_ObjectHideFlags: 0
