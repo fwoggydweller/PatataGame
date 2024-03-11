@@ -45,7 +45,6 @@ public class CropsManager : MonoBehaviour
 
     private void SacarDirección(out Vector3Int dir, Vector3Int pos)
     {
-        Vector3Int aux = new Vector3Int(pos.x, pos.y, pos.z);
         dir = Vector3Int.zero;
         dir.x = pos.x - (int)Mathf.Round(targetTransform.position.x);
         dir.y = pos.y - (int)Mathf.Round(targetTransform.position.y);
